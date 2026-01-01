@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:priyen15/CICD-project-k8s.git
-    targetRevision: main
+    repoURL: https://github.com/priyen15/CICD-project-k8s.git
+    targetRevision: HEAD
     path: dev
   destination:
     server: https://kubernetes.default.svc
