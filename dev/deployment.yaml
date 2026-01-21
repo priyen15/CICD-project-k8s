@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: backend-api
-          image: 192.168.49.1:5000/backend-api:4
+          image: 192.168.49.1:5000/backend-api:11
           imagePullPolicy: Always
           ports:
              - containerPort: 3000
